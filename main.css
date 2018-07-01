@@ -1,0 +1,60 @@
+nav {
+  font-family: courier;
+  font-size: 30;
+  text-align: center;
+  border-style: solid;
+  background: grey;
+  border-color: navy;
+}
+
+body {
+    background-color: lightgrey;
+    width: 1000px;
+    border: 25px transparent;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: courier;
+    font-size: 20px;
+}
+/*Profile photo centering and sizing*/
+#profileimage{
+    margin: 0 auto;
+    width: 420.75px;
+}
+#profileimage img{
+    border-radius: 50px;
+  }
+/*gallery grid centering and sizing */
+#imagelist{
+      margin: 0 auto;
+      font-size: 0;
+      width: 948px;
+}
+/*gallery grid spacing */
+#imagelist a{
+  margin: 2px;
+  display: inline-block;
+  border: 6px solid transparent;
+}
+/*gallery grid photos round corners */
+#imagelist img{
+    border-radius: 50px;
+  }
+/*footer Below */
+footer {
+    text-align: center;
+    border-style: solid;
+    font-size: 15;
+    font-family: courier;
+    background: grey;
+    border-color: navy;
+}
+/*gallery grid settings*/
